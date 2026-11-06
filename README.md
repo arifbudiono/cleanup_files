@@ -12,4 +12,4 @@ Hapus file pada spesifik directory berdasarkan rentang waktu menggunakan Python.
 <pre>
   <code>python cleanup.py</code> 
 </pre>
-<p><i>Catatan: <br>Selalu lakukan pencadangan (backup) data penting Anda secara berkala sebelum menjalankan automasi penghapusan file.</i></p>
+<p><i>Catatan: <br>Selalu lakukan pencadangan data penting Anda secara berkala sebelum menjalankan automasi penghapusan file.</i></p>
