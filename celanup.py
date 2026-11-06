@@ -5,7 +5,7 @@ import time
 def delete_old_files(folder_path, num_files_to_keep=3):
     # Ambil semua file di folder
     files = glob.glob(os.path.join(folder_path, '*'))
-    # Urutkan file berdasarkan waktu modifikasi (terbaru ke terlam  a)
+    # Urutkan file berdasarkan waktu modifikasi (terbaru ke terlama)
     files.sort(key=os.path.getmtime, reverse=True)
     
     # Hapus file yang lebih lama dari num_files_to_keep
@@ -19,7 +19,9 @@ def delete_old_files(folder_path, num_files_to_keep=3):
 def main():
     # Daftar folder yang ingin diproses
     folders = [
-        "D:\LAB TESTING\DELETE FOLDER FOR 3 DAYS\*", #sesuaikan directory anda
+        "D:\LAB TESTING\DELETE FOLDER FOR 3 DAYS\A", #sesuaikan directory anda
+        "D:\LAB TESTING\DELETE FOLDER FOR 3 DAYS\B",
+        "D:\LAB TESTING\DELETE FOLDER FOR 3 DAYS\C"
     ]
     
     for folder in folders:
